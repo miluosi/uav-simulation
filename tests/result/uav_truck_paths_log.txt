@@ -1,0 +1,1376 @@
+=== UAV & Truck Route Planning Log ===
+Path Planning Mode: shortest_path
+Demand Generation: Poisson Process (λ=2.0)
+Delivery Mode: 50% Direct, 50% Distribution Center
+Simulation Start Time: 2025-07-20 17:01:26
+
+
+--- Order 1 (Distribution Center) ---
+Creation Time: 0.80
+Start Time: 1.00
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 2 (Direct Delivery) ---
+Creation Time: 0.83
+Start Time: 1.50
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 3 (Distribution Center) ---
+Creation Time: 0.95
+Start Time: 2.00
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 4 (Distribution Center) ---
+Creation Time: 1.26
+Start Time: 2.50
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 5 (Distribution Center) ---
+Creation Time: 1.36
+Start Time: 3.00
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 2.29 km
+Estimated Delivery Time: 12.35
+UAV Waypoints (2):
+  1. start: (39.9380, 116.4380) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 6 (Direct Delivery) ---
+Creation Time: 1.72
+Start Time: 3.50
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 7 (Direct Delivery) ---
+Creation Time: 2.58
+Start Time: 7.00
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 8 (Distribution Center) ---
+Creation Time: 2.98
+Start Time: 10.00
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 1.07 km
+Estimated Delivery Time: 11.38
+UAV Waypoints (2):
+  1. start: (39.9120, 116.4320) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 9 (Direct Delivery) ---
+Creation Time: 3.05
+Start Time: 11.50
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 10 (Direct Delivery) ---
+Creation Time: 3.37
+Start Time: 12.50
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 11 (Direct Delivery) ---
+Creation Time: 3.61
+Start Time: 13.50
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 5.33 km
+Estimated Delivery Time: 6.27
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9080, 116.4120) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 12 (Distribution Center) ---
+Creation Time: 4.07
+Start Time: 14.50
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 2.29 km
+Estimated Delivery Time: 12.35
+UAV Waypoints (2):
+  1. start: (39.9380, 116.4380) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 13 (Distribution Center) ---
+Creation Time: 4.20
+Start Time: 15.50
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 2.29 km
+Estimated Delivery Time: 12.35
+UAV Waypoints (2):
+  1. start: (39.9380, 116.4380) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 14 (Distribution Center) ---
+Creation Time: 4.22
+Start Time: 16.00
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 15 (Direct Delivery) ---
+Creation Time: 4.58
+Start Time: 17.50
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 5.29 km
+Estimated Delivery Time: 6.24
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9050, 116.4250) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 16 (Direct Delivery) ---
+Creation Time: 4.96
+Start Time: 20.00
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 5.29 km
+Estimated Delivery Time: 6.24
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9050, 116.4250) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 17 (Direct Delivery) ---
+Creation Time: 4.97
+Start Time: 21.50
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 5.33 km
+Estimated Delivery Time: 6.27
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9080, 116.4120) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 18 (Distribution Center) ---
+Creation Time: 5.03
+Start Time: 24.00
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 19 (Distribution Center) ---
+Creation Time: 5.81
+Start Time: 26.50
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 1.07 km
+Estimated Delivery Time: 11.38
+UAV Waypoints (2):
+  1. start: (39.9120, 116.4320) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 20 (Direct Delivery) ---
+Creation Time: 6.22
+Start Time: 27.00
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 21 (Direct Delivery) ---
+Creation Time: 6.42
+Start Time: 28.00
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 2.90 km
+Estimated Delivery Time: 4.32
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9380, 116.4380) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 22 (Direct Delivery) ---
+Creation Time: 6.77
+Start Time: 28.50
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 23 (Direct Delivery) ---
+Creation Time: 6.90
+Start Time: 29.00
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 24 (Direct Delivery) ---
+Creation Time: 7.06
+Start Time: 32.50
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 5.29 km
+Estimated Delivery Time: 6.24
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9050, 116.4250) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 25 (Distribution Center) ---
+Creation Time: 7.44
+Start Time: 33.50
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 26 (Distribution Center) ---
+Creation Time: 7.86
+Start Time: 34.00
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 27 (Distribution Center) ---
+Creation Time: 8.20
+Start Time: 34.50
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 1.47 km
+Estimated Delivery Time: 11.70
+UAV Waypoints (2):
+  1. start: (39.9220, 116.4420) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 28 (Direct Delivery) ---
+Creation Time: 8.59
+Start Time: 36.00
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 29 (Distribution Center) ---
+Creation Time: 8.78
+Start Time: 38.00
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 30 (Distribution Center) ---
+Creation Time: 9.39
+Start Time: 39.00
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 1.47 km
+Estimated Delivery Time: 11.70
+UAV Waypoints (2):
+  1. start: (39.9220, 116.4420) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 31 (Direct Delivery) ---
+Creation Time: 10.74
+Start Time: 40.50
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 32 (Direct Delivery) ---
+Creation Time: 11.04
+Start Time: 45.50
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 33 (Distribution Center) ---
+Creation Time: 11.87
+Start Time: 46.00
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 34 (Direct Delivery) ---
+Creation Time: 12.32
+Start Time: 46.50
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 35 (Direct Delivery) ---
+Creation Time: 13.65
+Start Time: 47.00
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 36 (Direct Delivery) ---
+Creation Time: 14.31
+Start Time: 49.50
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 5.33 km
+Estimated Delivery Time: 6.27
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9080, 116.4120) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 37 (Direct Delivery) ---
+Creation Time: 14.98
+Start Time: 51.00
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 38 (Direct Delivery) ---
+Creation Time: 15.78
+Start Time: 51.50
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 39 (Direct Delivery) ---
+Creation Time: 16.62
+Start Time: 52.00
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 2.41 km
+Estimated Delivery Time: 3.93
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9280, 116.4280) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 40 (Distribution Center) ---
+Creation Time: 17.67
+Start Time: 53.00
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 41 (Direct Delivery) ---
+Creation Time: 18.82
+Start Time: 56.00
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 42 (Distribution Center) ---
+Creation Time: 19.25
+Start Time: 56.50
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 43 (Direct Delivery) ---
+Creation Time: 19.28
+Start Time: 57.00
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 44 (Distribution Center) ---
+Creation Time: 19.48
+Start Time: 57.50
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 45 (Direct Delivery) ---
+Creation Time: 19.83
+Start Time: 58.00
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 46 (Direct Delivery) ---
+Creation Time: 20.01
+Start Time: 61.50
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 47 (Direct Delivery) ---
+Creation Time: 20.44
+Start Time: 63.00
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 48 (Direct Delivery) ---
+Creation Time: 21.30
+Start Time: 63.50
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 5.29 km
+Estimated Delivery Time: 6.24
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9050, 116.4250) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 49 (Direct Delivery) ---
+Creation Time: 21.55
+Start Time: 65.00
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 50 (Distribution Center) ---
+Creation Time: 22.19
+Start Time: 67.00
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 51 (Distribution Center) ---
+Creation Time: 22.58
+Start Time: 67.50
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 52 (Direct Delivery) ---
+Creation Time: 22.79
+Start Time: 68.50
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 53 (Direct Delivery) ---
+Creation Time: 23.27
+Start Time: 69.00
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 54 (Distribution Center) ---
+Creation Time: 23.42
+Start Time: 70.00
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 55 (Distribution Center) ---
+Creation Time: 24.03
+Start Time: 70.50
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 56 (Distribution Center) ---
+Creation Time: 24.31
+Start Time: 73.50
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 1.07 km
+Estimated Delivery Time: 11.38
+UAV Waypoints (2):
+  1. start: (39.9120, 116.4320) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 57 (Distribution Center) ---
+Creation Time: 24.61
+Start Time: 74.00
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 1.47 km
+Estimated Delivery Time: 11.70
+UAV Waypoints (2):
+  1. start: (39.9220, 116.4420) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 58 (Distribution Center) ---
+Creation Time: 24.67
+Start Time: 78.50
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 59 (Direct Delivery) ---
+Creation Time: 25.12
+Start Time: 79.00
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 60 (Direct Delivery) ---
+Creation Time: 25.93
+Start Time: 82.00
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 61 (Direct Delivery) ---
+Creation Time: 26.32
+Start Time: 82.50
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 2.41 km
+Estimated Delivery Time: 3.93
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9280, 116.4280) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 62 (Direct Delivery) ---
+Creation Time: 26.99
+Start Time: 84.50
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 5.33 km
+Estimated Delivery Time: 6.27
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9080, 116.4120) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 63 (Direct Delivery) ---
+Creation Time: 27.06
+Start Time: 85.00
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 64 (Direct Delivery) ---
+Creation Time: 27.25
+Start Time: 86.00
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 65 (Direct Delivery) ---
+Creation Time: 27.37
+Start Time: 86.50
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 5.33 km
+Estimated Delivery Time: 6.27
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9080, 116.4120) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 66 (Direct Delivery) ---
+Creation Time: 27.64
+Start Time: 87.50
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 2.90 km
+Estimated Delivery Time: 4.32
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9380, 116.4380) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 67 (Distribution Center) ---
+Creation Time: 27.82
+Start Time: 90.50
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 1.47 km
+Estimated Delivery Time: 11.70
+UAV Waypoints (2):
+  1. start: (39.9220, 116.4420) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 68 (Direct Delivery) ---
+Creation Time: 28.04
+Start Time: 91.00
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 69 (Distribution Center) ---
+Creation Time: 28.94
+Start Time: 91.50
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 70 (Direct Delivery) ---
+Creation Time: 29.32
+Start Time: 92.00
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 71 (Direct Delivery) ---
+Creation Time: 30.04
+Start Time: 92.50
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 2.90 km
+Estimated Delivery Time: 4.32
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9380, 116.4380) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 72 (Distribution Center) ---
+Creation Time: 30.74
+Start Time: 93.00
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 73 (Distribution Center) ---
+Creation Time: 31.55
+Start Time: 96.00
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 1.67 km
+Estimated Delivery Time: 11.86
+UAV Waypoints (2):
+  1. start: (39.9050, 116.4250) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 74 (Distribution Center) ---
+Creation Time: 31.81
+Start Time: 97.00
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 75 (Direct Delivery) ---
+Creation Time: 31.82
+Start Time: 97.50
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 76 (Direct Delivery) ---
+Creation Time: 32.35
+Start Time: 102.50
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 5.29 km
+Estimated Delivery Time: 6.24
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9050, 116.4250) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 77 (Direct Delivery) ---
+Creation Time: 32.99
+Start Time: 103.00
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 78 (Distribution Center) ---
+Creation Time: 33.25
+Start Time: 103.50
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 1.67 km
+Estimated Delivery Time: 11.86
+UAV Waypoints (2):
+  1. start: (39.9050, 116.4250) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 79 (Distribution Center) ---
+Creation Time: 33.92
+Start Time: 104.50
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 1.07 km
+Estimated Delivery Time: 11.38
+UAV Waypoints (2):
+  1. start: (39.9120, 116.4320) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 80 (Distribution Center) ---
+Creation Time: 34.43
+Start Time: 108.00
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 81 (Direct Delivery) ---
+Creation Time: 34.64
+Start Time: 109.00
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 5.29 km
+Estimated Delivery Time: 6.24
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9050, 116.4250) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 82 (Direct Delivery) ---
+Creation Time: 35.52
+Start Time: 109.50
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 83 (Distribution Center) ---
+Creation Time: 36.51
+Start Time: 110.00
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 84 (Direct Delivery) ---
+Creation Time: 36.57
+Start Time: 115.00
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 85 (Distribution Center) ---
+Creation Time: 36.67
+Start Time: 115.50
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 86 (Distribution Center) ---
+Creation Time: 37.27
+Start Time: 116.00
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 1.73 km
+Estimated Delivery Time: 11.91
+UAV Waypoints (2):
+  1. start: (39.9080, 116.4120) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 87 (Distribution Center) ---
+Creation Time: 37.54
+Start Time: 116.50
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 88 (Distribution Center) ---
+Creation Time: 38.12
+Start Time: 119.50
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 1.47 km
+Estimated Delivery Time: 11.70
+UAV Waypoints (2):
+  1. start: (39.9220, 116.4420) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 89 (Direct Delivery) ---
+Creation Time: 38.46
+Start Time: 120.00
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 90 (Direct Delivery) ---
+Creation Time: 39.10
+Start Time: 121.50
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 91 (Distribution Center) ---
+Creation Time: 39.26
+Start Time: 124.50
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 92 (Direct Delivery) ---
+Creation Time: 39.35
+Start Time: 127.00
+UAV ID: uav_2
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 93 (Distribution Center) ---
+Creation Time: 39.72
+Start Time: 127.50
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 94 (Direct Delivery) ---
+Creation Time: 39.76
+Start Time: 128.00
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 2.90 km
+Estimated Delivery Time: 4.32
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9380, 116.4380) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 95 (Direct Delivery) ---
+Creation Time: 39.93
+Start Time: 128.50
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 96 (Direct Delivery) ---
+Creation Time: 40.35
+Start Time: 131.50
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 2.94 km
+Estimated Delivery Time: 4.35
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9180, 116.4180) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 97 (Distribution Center) ---
+Creation Time: 40.68
+Start Time: 132.50
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 0.64 km
+Estimated Delivery Time: 11.03
+UAV Waypoints (2):
+  1. start: (39.9180, 116.4180) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 98 (Direct Delivery) ---
+Creation Time: 40.71
+Start Time: 133.00
+UAV ID: uav_5
+Path Planning: shortest_path
+Total Distance: 3.34 km
+Estimated Delivery Time: 4.68
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9220, 116.4420) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 99 (Direct Delivery) ---
+Creation Time: 41.44
+Start Time: 135.00
+UAV ID: uav_6
+Path Planning: shortest_path
+Total Distance: 4.00 km
+Estimated Delivery Time: 5.20
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9120, 116.4320) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 100 (Direct Delivery) ---
+Creation Time: 42.05
+Start Time: 136.00
+UAV ID: uav_1
+Path Planning: shortest_path
+Total Distance: 5.12 km
+Estimated Delivery Time: 6.09
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9150, 116.4050) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 101 (Direct Delivery) ---
+Creation Time: 42.09
+Start Time: 136.50
+UAV ID: uav_3
+Path Planning: shortest_path
+Total Distance: 2.90 km
+Estimated Delivery Time: 4.32
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9380, 116.4380) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 102 (Distribution Center) ---
+Creation Time: 42.15
+Start Time: 138.00
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 1.07 km
+Estimated Delivery Time: 11.38
+UAV Waypoints (2):
+  1. start: (39.9120, 116.4320) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 103 (Direct Delivery) ---
+Creation Time: 42.93
+Start Time: 139.50
+UAV ID: uav_4
+Path Planning: shortest_path
+Total Distance: 5.33 km
+Estimated Delivery Time: 6.27
+Waypoints (3):
+  1. start: (39.9200, 116.4200) - waypoint
+  2. end: (39.9080, 116.4120) - waypoint
+  3. end: (39.9350, 116.4400) - waypoint
+
+--- Order 104 (Distribution Center) ---
+Creation Time: 44.52
+Start Time: 140.50
+UAV ID: uav_6
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 105 (Distribution Center) ---
+Creation Time: 45.16
+Start Time: 141.00
+UAV ID: uav_3
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 106 (Distribution Center) ---
+Creation Time: 45.68
+Start Time: 142.50
+UAV ID: uav_1
+UAV Path Planning: shortest_path
+UAV Distance: 0.93 km
+Estimated Delivery Time: 11.26
+UAV Waypoints (2):
+  1. start: (39.9280, 116.4280) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 107 (Distribution Center) ---
+Creation Time: 45.70
+Start Time: 144.00
+UAV ID: uav_2
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+--- Order 108 (Distribution Center) ---
+Creation Time: 46.02
+Start Time: 146.00
+UAV ID: uav_4
+UAV Path Planning: shortest_path
+UAV Distance: 1.67 km
+Estimated Delivery Time: 11.86
+UAV Waypoints (2):
+  1. start: (39.9050, 116.4250) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
+
+=== Final Simulation Summary ===
+Total Demands Generated: 257
+Total Orders Completed: 102
+Total Orders Failed: 0
+Orders in Queue: 149
+Active Orders: 6
+Satisfaction Rate: 100.00%
+Average Completion Time: 52.79
+UAV Routes Generated: 108
+Truck Routes Generated: 48
+Path Planning Mode: shortest_path
+Simulation End Time: 2025-07-20 17:01:26
+
+--- Order 109 (Distribution Center) ---
+Creation Time: 46.13
+Start Time: 149.50
+UAV ID: uav_5
+UAV Path Planning: shortest_path
+UAV Distance: 1.79 km
+Estimated Delivery Time: 11.96
+UAV Waypoints (2):
+  1. start: (39.9150, 116.4050) - waypoint
+  2. end: (39.9200, 116.4250) - waypoint
+Truck Distance: 2.10 km
+Truck Route: DC(39.9200, 116.4250) -> SP(39.9350, 116.4400)
